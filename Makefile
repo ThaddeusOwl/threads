@@ -9,7 +9,7 @@ all:
 clean:
 	rm ${BINDIR}/*.class
 run:
-	java -cp ./bin Main
+	java -cp ./bin/threads Main
 docs:
 	javadoc -classpath ${BINDIR} -d doc/ src/*.java
 cleandocs:
