@@ -36,7 +36,7 @@ public class runSeqAlgo {
         tick();
         String y = x.getBasins();
         float time = tock();
-        System.out.println("Run took " + time + " seconds");
+        //System.out.println("Run took " + time + " seconds");
 
         file.close();
         System.out.println(y);

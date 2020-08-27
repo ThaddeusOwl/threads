@@ -1,3 +1,12 @@
+/**
+@author: Ahmed
+Takes in 2 or 0 arguments
+2: 1st=fileName 2nd=number of threads
+0: default values: 1000x1000 4
+*/
+
+
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -59,7 +68,7 @@ public class runForkAlgo {
         String toPrint = getBasins(terrain, seqCutOff);
         float time = tock();
 
-        System.out.println("Run took " + time + " seconds with " + nrOfProcessors + "processors");
+        //System.out.println("Run took " + time + " seconds with " + nrOfProcessors + "processors");
         //System.out.println(time);
         int numBasins = toPrint.split("\n").length;
         System.out.println(numBasins+ "\n" + toPrint);
