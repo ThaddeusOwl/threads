@@ -6,38 +6,35 @@ import java.util.concurrent.ForkJoinPool;
 public class runForkAlgo {
 
     static long startTime = 0;
-    //int seqCutOff;
 
     private static void tick(){
         startTime = System.currentTimeMillis();
     }
-    private static float tock(){
-        return (System.currentTimeMillis() - startTime) / 1000.0f;
-    }
+    private static float tock(){return (System.currentTimeMillis() - startTime) / 1000.0f;}
 
     static final ForkJoinPool fjPool = new ForkJoinPool();
-    static String results(float[][] grid, int sco){
+    static String getBasins(float[][] grid, int sco){
         return fjPool.invoke(new forkAlgo(grid,1,grid.length, grid.length, grid[0].length, sco));
     }
-    //public int numBasins = 0;
+
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        int seqCutOff;
+        int numThreads;
+
         String fileName;
 
         if(args.length == 2){
             fileName = args[0];
-            seqCutOff = Integer.parseInt(args[1]);
+            numThreads = Integer.parseInt(args[1]);
         }else{
-            fileName = "large_in";
-            seqCutOff = 50;
+            fileName = "1000x1000";
+            numThreads = 4;
         }
 
         int rows;
         int columns;
         float[][] terrain;
-        //fileName = "large_in";
 
         Scanner file = new Scanner(new File(fileName+".txt"));
         rows = file.nextInt();
@@ -56,14 +53,19 @@ public class runForkAlgo {
         int nrOfProcessors = runtime.availableProcessors();
         System.gc();
 
+        int seqCutOff = 2 + (rows/numThreads);
+
         tick();
-        String toPrint = results(terrain, seqCutOff);
+        String toPrint = getBasins(terrain, seqCutOff);
         float time = tock();
 
         System.out.println("Run took " + time + " seconds with " + nrOfProcessors + "processors");
+        //System.out.println(time);
         int numBasins = toPrint.split("\n").length;
-        //System.out.println(numBasins+ "\n" + toPrint);
+        System.out.println(numBasins+ "\n" + toPrint);
         file.close();
+
+
 
 
     }

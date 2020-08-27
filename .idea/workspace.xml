@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb09935d-b765-4a04-a751-b99cb4d18083" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.CSC2002S_PCP1_Assignment.doc#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/1000by1000_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/70by70_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/TestFileGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/forkAlgo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/getGrid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/gridoutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/largeGrid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/large_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/large_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/med_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/med_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/runForkAlgo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/runSeqAlgo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/seqAlgo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/small_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/small_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/trivialbasin_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/trivialbasin_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/trivialhill_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/threads/trivialhill_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forkAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forkAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/runForkAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/runForkAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/runSeqAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/runSeqAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seqAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seqAlgo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1getwZwBNDhPLTAOEBLYLdiPIu4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb09935d-b765-4a04-a751-b99cb4d18083" name="Default Changelist" comment="" />
+      <created>1598487126649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598487126649</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="795" width="1024" height="741" key="#Project_Structure" timestamp="1598490473615">
+      <screen x="0" y="768" width="1366" height="768" />
+    </state>
+    <state x="72" y="795" width="1024" height="741" key="#Project_Structure/0.768.1366.768/72.0.1294.768@0.768.1366.768" timestamp="1598490473615" />
+    <state x="466" y="907" width="495" height="520" key="FileChooserDialogImpl" timestamp="1598489791017">
+      <screen x="0" y="768" width="1366" height="768" />
+    </state>
+    <state x="466" y="907" width="495" height="520" key="FileChooserDialogImpl/0.768.1366.768/72.0.1294.768@0.768.1366.768" timestamp="1598489791017" />
+    <state x="208" y="795" width="1022" height="737" key="SettingsEditor" timestamp="1598490261336">
+      <screen x="0" y="768" width="1366" height="768" />
+    </state>
+    <state x="208" y="795" width="1022" height="737" key="SettingsEditor/0.768.1366.768/72.0.1294.768@0.768.1366.768" timestamp="1598490261336" />
+    <state x="382" y="857" width="672" height="678" key="search.everywhere.popup" timestamp="1598490171138">
+      <screen x="0" y="768" width="1366" height="768" />
+    </state>
+    <state x="382" y="857" width="672" height="678" key="search.everywhere.popup/0.768.1366.768/72.0.1294.768@0.768.1366.768" timestamp="1598490171138" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
